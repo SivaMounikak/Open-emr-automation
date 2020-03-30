@@ -123,7 +123,7 @@ System.out.println(enteredText.getText());
 public  void search() throws InterruptedException {
 
 driver.switchTo().defaultContent();
-Thread.sleep(5000);
+Thread.sleep(3000);
 driver.switchTo().frame("pat");
 Thread.sleep(3000);
 driver.findElement(searchLoc).click();
