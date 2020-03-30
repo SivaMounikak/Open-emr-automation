@@ -24,6 +24,7 @@ public class StepDefinations {
 		driver = new ChromeDriver();
 		
 		driver.manage().window().maximize();
+		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		// enter browser link
 		driver.get("https://demo.openemr.io/a/openemr/interface/login/login.php?site=default");
