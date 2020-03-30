@@ -22,9 +22,7 @@ public class StepDefinations {
 	public void i_have_browser_with_openemrpage() {
 		System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
-		
 		driver.manage().window().maximize();
-		
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		// enter browser link
 		driver.get("https://demo.openemr.io/a/openemr/interface/login/login.php?site=default");
